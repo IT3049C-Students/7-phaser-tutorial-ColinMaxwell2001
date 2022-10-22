@@ -75,7 +75,7 @@ class Scene2 extends Phaser.Scene{ //Here!!
         this.physics.add.overlap(this.player, this.enemies, this.hurtPlayer, null, this);
 
         this.physics.add.overlap(this.projectiles, this.enemies, this.hitEnemy, null, this);
-
+        //Tutorial #9
     }
 
     pickPowerUp(player, powerUp) {
